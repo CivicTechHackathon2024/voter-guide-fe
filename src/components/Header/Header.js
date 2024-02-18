@@ -10,7 +10,7 @@ function Header() {
       </Link>
       <nav>
         <NavLink to='/' className="nav-title">Home</NavLink>
-        <NavLink to='/learn_more' className="nav-title">Candidate Info</NavLink>
+        <NavLink to='/map' className="nav-title">Candidate Info</NavLink>
         <NavLink to='/how_to_vote' className="nav-title">How to Vote</NavLink>
         <NavLink className="nav-title">Contact</NavLink>
       </nav>
