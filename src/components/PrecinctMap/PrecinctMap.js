@@ -3,10 +3,10 @@ import '../PrecinctMap/PrecinctMap.css'
 import {Link } from 'react-router-dom'
 function PrecinctMap() {
   return (
-    <div>
-      <p>precinct map</p>
+    <div className="iframe-container">
+      <iframe src="/create_map.html" title="learn more" ></iframe>
       <Link to='/learn_more'>
-      <p>see my candidates</p>
+      <p>find a candidate</p>
       </Link>
       
     </div>
