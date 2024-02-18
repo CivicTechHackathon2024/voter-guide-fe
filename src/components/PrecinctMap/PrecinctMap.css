@@ -7,6 +7,7 @@
   font-family: 'Kanit';
   font-weight: 900;
   font-size: 2.2rem;
+  margin-bottom: .5vh;
 }
 
 .iframe-container {
@@ -33,4 +34,9 @@
 }
 .title-wrapper {
  
+}
+.map-subtitle{
+  margin-left: 37vw;
+  font-size: 1.2rem;
+  margin-top:0;
 }
