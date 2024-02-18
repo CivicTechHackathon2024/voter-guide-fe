@@ -1,0 +1,4 @@
+.landing-page-wrapper{
+    display:flex;
+    flex-direction: column;
+}

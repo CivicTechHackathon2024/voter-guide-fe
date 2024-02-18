@@ -18,4 +18,9 @@
   background-color: var(--mariner);
   height: 5vh;
   color:white;
+  display:flex;
+  flex-direction: row;
+}
+.App-header > h1 {
+  margin: 0;
 }
