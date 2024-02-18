@@ -1,43 +1,32 @@
   
-  .main-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-  }
-  
-  .section-heading {
-    color: blue; /* Set the color of the headings to blue */
-    text-decoration: none; /* Remove default underline */
-    position: relative; /* Required for absolute positioning of the hover effect */
-  }
-  
-  .section-heading:hover::after {
-    content: ''; /* Add pseudo-element for the underline */
-    position: absolute;
-    left: 0; /* Start from the left */
-    bottom: -2px; /* Position the underline below the text */
-    width: 100%; /* Extend the underline across the entire width */
-    height: 2px; /* Set the thickness of the underline */
-    background-color: red; /* Set the color of the underline */
-  }
-  
-
-  
-  .vote-button {
+  header {
     background-color: #333;
     color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic; /* Change the font style to italic */
+    color: white;
+    text-decoration: none; 
+    /* style:none; */
+  }
+  .logo:hover,
+  .nav-title:hover {
+    color: #008080;
+    font-style: none;
+    text-decoration: none; 
+  }
   
-  nav ul {
-    display: flex; 
-    gap: 20px; 
+  nav {
+    display: flex;
+    gap: 20px;
+    list-style-type: none; /* Remove the bullet points */
   }
   
   nav a {
@@ -45,9 +34,14 @@
     text-decoration: none;
   }
   
+  .translate-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
   /* Translate Button */
-  
-  /* .button {
+
+.button {
     height: 50px;
     width: 150px;
     border: none;
@@ -104,19 +98,4 @@
   
   .type1:hover::before {
     transform: translateY(-50px) scale(0) rotate(120deg);
-  } */
-  .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-  }
-  
-  .card {
-    background-color: #f1f1f1;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    margin-bottom: 2vh;
-  }
+  } 
