@@ -9,6 +9,17 @@
   font-size: 2.2rem;
 }
 
+h1 {
+  margin-top: 23px; /* Increased margin for better spacing */
+  margin-bottom: 3px; /* Adjusted margin for spacing */
+  color: rgb(19, 55, 107); /* Set color to the specified value */
+  text-align: center;
+}
+h3 {
+  text-size-adjust: 30;
+  text-align: center;
+  color: rgb(69, 97, 135);
+}
 .iframe-container {
     display: flex;
     justify-content: center;
