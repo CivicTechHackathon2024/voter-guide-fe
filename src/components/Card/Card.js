@@ -1,15 +1,29 @@
 import React from 'react'
 import "../Card/Card.css"
 
-function Card() {
+function Card({ name, party }) {
+  let backgroundColor;
+  switch (party) {
+    case 'Democrat':
+      backgroundColor = '#3498db'; // Blue
+      break;
+    case 'Republican':
+      backgroundColor = '#e74c3c'; // Red
+      break;
+    case 'Libertarian':
+      backgroundColor = '#2ecc71'; // Green
+      break;
+    default:
+      backgroundColor = '#f5f5f5'; // Default
+      break;
+  }
     return (
-      
-      <div class="card">
+      <div className="card" style={{ background: backgroundColor }}>
       <div class="card-info">
       <div class="card-avatar"></div>
-      <div class="card-title">Steve Jobs</div>
-      <div class="card-subtitle">CEO &amp; Co-Founder</div>
-      </div>
+      <div class="card-title">{name}</div>
+      <div class="card-subtitle">{party}</div>
+      </div>  
       <ul class="card-social">
       <li class="card-social__item">
       <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

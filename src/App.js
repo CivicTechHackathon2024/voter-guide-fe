@@ -13,7 +13,7 @@ function App() {
       <Header/>
       <Routes>
         <Route path='/' element={<LandingPage/>}></Route>
-        <Route path='/learn_more/*' element={<Candidates/>}></Route>
+        <Route path='/learn_more/:val1/:val2' element={<Candidates/>}></Route>
         <Route path='/how_to_vote' element={<HowToVote/>}></Route>
         <Route path='/map' element={<PrecinctMap/>}></Route>
       </Routes>

@@ -1,6 +1,9 @@
 {
+  "ward":1,
+  "precinct":1,
+  "candidateType": "Presidential",
   "name": "Joe Biden",
-  "party": "democrat",
+  "party": "D",
   "link": "https://joebiden.com/",
   "description": "Joe Biden, the 46th President of the United States, has a long career in politics, serving as a U.S. Senator from Delaware for over three decades before becoming Vice President under Barack Obama. For his 2024 reelection platform, President Biden focuses on addressing pressing domestic issues such as economic recovery, healthcare accessibility, climate change mitigation, and fostering unity among Americans."
 }
