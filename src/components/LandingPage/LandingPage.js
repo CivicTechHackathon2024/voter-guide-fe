@@ -9,10 +9,13 @@ function LandingPage() {
     <div className='landing-page-wrapper'>
       <h1 className='landing-page-title top'>VOTER</h1>
       <h1 className='landing-page-title bottom'>GUIDE</h1>
-      <Link to='/map'>
+      <Link to='/map' style={{ textDecoration: 'none' }}>
         <p className='landing-page-btn'>Find Out More</p>
       </Link>
+      <Link to='/map' style={{ textDecoration: 'none' }}>
+
       <div className='landing-page-circle'></div>
+      </Link>
       <img src={arrow} className='landing-page-arrow rotated-arrow'></img>
     </div>
     </main>
