@@ -99,3 +99,172 @@
   .type1:hover::before {
     transform: translateY(-50px) scale(0) rotate(120deg);
   } 
+
+  /*  */
+  /* Header.css */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+        color: white;
+    text-decoration: none; 
+  }
+  
+  nav {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .translate-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  /* Footer.css */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* main */
+  /* App.css */
+  
+  .main-content {
+    padding: 50px; /* Add padding for breathing room */
+    text-align: center; /* Center align content */
+  }
+  
+  .big-title {
+    font-size: 60px;
+    margin-bottom: 40px; /* Increase margin for spacing */
+    color: #333; /* Use a neutral color for readability */
+  }
+  
+  .sections-container {
+    display: flex;
+    flex-wrap: wrap; /* Ensure flexibility for responsiveness */
+    gap: 40px; /* Increase gap between sections */
+    justify-content: center; /* Center align sections */
+  }
+  
+  .section {
+    flex: 1;
+    padding: 20px; /* Add padding for spacing */
+    background-color: #f9f9f9; /* Use a light background color */
+    border-radius: 10px; /* Add rounded corners for a modern look */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+  }
+  
+  .section-heading {
+    font-size: 24px;
+    margin-bottom: 20px; /* Increase margin for spacing */
+    color: #333; /* Use a neutral color for readability */
+    text-decoration: underline;
+  }
+  
+  .section-content {
+    font-size: 18px;
+    color: #666; /* Use a slightly darker color for text */
+  }
+  
+  
+  /* Voting rules */
+  
+  .rule-list {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .rule-item {
+    margin-bottom: 20px;
+  }
+  
+  .rule-title {
+    font-weight: bold;
+  }
+  
+  .highlight {
+    color: #ff5722; /* Use a different color for highlighted words */
+    font-weight: bold;
+  }
+  
+  /* Processing */
+  .process-list {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .process-item {
+    margin-bottom: 20px;
+  }
+  
+  .process-title {
+    font-weight: bold;
+  }
+  
+  .section {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .section-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  
+  /* Button */
+  button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.726);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #c00; /* Red color */
+    box-shadow: 0px 15px 20px rgba(205, 45, 23, 0.4); /* Adjusted shadow color */
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  button:active {
+    transform: translateY(-1px);
+    background-color: #d15858; /* Darker red color */
+  }
+  .logo:hover,
+  .nav-title:hover {
+    color: #008080;
+    font-style: none;
+    text-decoration: none; 
+  }
