@@ -1,9 +1,12 @@
-h2 {
+.map-title {
   text-align: center;
   margin: auto;
   margin-top: 32px;
   margin-bottom: 16px;
   width: 80%;
+  font-family: 'Kanit';
+  font-weight: 900;
+  font-size: 2.2rem;
 }
 
 .iframe-container {
@@ -18,3 +21,16 @@ h2 {
     height: 80%;
     border: none;
   }
+.map-text-input {
+
+  width: 15vw;
+ 
+  height: 3vh;
+  position:absolute;
+  top: 25vh;
+  left: 15vw;
+  border: solid 2px black;
+}
+.title-wrapper {
+ 
+}
