@@ -17,7 +17,7 @@
    /*Image*/
    .card-avatar {
     --size: 60px;
-    background: linear-gradient(to top, #f1e1c1 0%, #fcbc97 100%);
+    background: linear-gradient(to top, #f1e1c1 0%, #fdfdfd 100%);
     width: var(--size);
     height: var(--size);
     border-radius: 50%;
@@ -31,8 +31,8 @@
     transform: translateY(200%);
     display: flex;
     justify-content: space-around;
-    width: 100%;
     opacity: 0;
+    padding-right: 20px;
     transition: transform .2s ease, opacity .2s ease;
    }
    
@@ -44,21 +44,21 @@
     display: block;
     height: 18px;
     width: 18px;
-    fill: #515F65;
+    fill: #ffffff;
     cursor: pointer;
     transition: fill 0.2s ease ,transform 0.2s ease;
    }
    
    /*Text*/
    .card-title {
-    color: #333;
-    font-size: 1.5em;
+    color: #ffffff;
+    font-size: 1.8em;
     font-weight: 600;
     line-height: 2rem;
    }
    
    .card-subtitle {
-    color: #859ba8;
+    color: #ffffff;
     font-size: 0.8em;
    }
    

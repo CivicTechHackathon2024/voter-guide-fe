@@ -7,11 +7,22 @@
   }
   
   .section-heading {
-    color: blue; /* Set the color of the headings to blue */
+    color: rgb(0, 0, 0); /* Set the color of the headings to blue */
     text-decoration: none; /* Remove default underline */
     position: relative; /* Required for absolute positioning of the hover effect */
+    text-size-adjust: 26px;
+    text-emphasis: bold;
   }
   
+  h2{
+    size: 8rem;
+    padding-left: 100%;
+    padding-right: 100%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    background-color: rgba(96, 96, 249, 0.039);
+  }
+
   .section-heading:hover::after {
     content: ''; /* Add pseudo-element for the underline */
     position: absolute;
@@ -20,6 +31,7 @@
     width: 100%; /* Extend the underline across the entire width */
     height: 2px; /* Set the thickness of the underline */
     background-color: red; /* Set the color of the underline */
+    text-size-adjust: 2em;
   }
   
 
