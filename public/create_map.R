@@ -13,7 +13,7 @@ leaflet(districts) %>%
   addTiles() %>%
   addPolygons(
     label = ~paste0(TOWN, ": Ward ", WARD, ", Precinct ", PRECINCT),
-    popup = ~paste0('<a href=http://localhost:3000/learn_more/', WARD, '/', PRECINCT, ' target="_blank">', TOWN, ": Ward ", WARD, ", Precinct ", PRECINCT),
+    popup = ~paste0('<a href=http://localhost:3000/learn_more/', WARD, '/', PRECINCT, ' target="_top">', TOWN, ": Ward ", WARD, ", Precinct ", PRECINCT),
     fillOpacity = 0.5,
     fillColor = ~colorScale(as.integer(districts$WARD) %% 11),
     color="black",
