@@ -32,7 +32,7 @@ function HowToVote() {
                 <span className="rule-title">Identification Requirements:</span> While Massachusetts does not require voters to show identification at the polls, <b style={{ color: '#c00' }}>first-time voters,</b> who registered by mail may be asked to provide ID or a copy of a <b style={{ color: '#c00' }}>current utility bill, bank statement, government check, paycheck, or other government document showing their name and address</b>.
               </li>
             </ul>
-            <button> <b>Learn more ...</b>
+            <button> <b>Learn more...</b>
             </button>
           </div>
 
