@@ -9,6 +9,7 @@ function Header() {
         <h1 className='logo'>Boston City</h1>
       </Link>
       <nav>
+      <NavLink to='/' className="nav-title">Home</NavLink>
         <NavLink to='/map' className="nav-title">Candidate Info</NavLink>
         <NavLink to='/how_to_vote' className="nav-title">How to Vote</NavLink>
       </nav>

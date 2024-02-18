@@ -1,8 +1,13 @@
-import React from "react";
-import "../HowToVote/HowToVote.css";
+
+import React from 'react';
+import './HowToVote.css';
+
 function HowToVote() {
   return (
-    <main className="main-content">
+    <div className="App">
+
+      
+      <main className="main-content">
         <h1 className="big-title" style={{ color: '#13376b' }}>HOW TO VOTE</h1>
         
         <div className="sections-container">
@@ -27,7 +32,7 @@ function HowToVote() {
                 <span className="rule-title">Identification Requirements:</span> While Massachusetts does not require voters to show identification at the polls, <b style={{ color: '#c00' }}>first-time voters,</b> who registered by mail may be asked to provide ID or a copy of a <b style={{ color: '#c00' }}>current utility bill, bank statement, government check, paycheck, or other government document showing their name and address</b>.
               </li>
             </ul>
-            <button> <b>Learn more >>></b>
+            <button> <b>Learn more...</b>
             </button>
           </div>
 
@@ -52,7 +57,7 @@ function HowToVote() {
                 <span className="process-title">Provisional Voting:</span> In certain cases, individuals may be eligible for provisional voting if their eligibility is in question. These votes are counted after verification.
               </li>
             </ol>
-            <button> <b>Learn more >>></b>
+            <button> <b>Learn more ...</b>
             </button>
           </div>
 
@@ -61,6 +66,7 @@ function HowToVote() {
         
       </main>
 
+    </div>
   );
 }
 
