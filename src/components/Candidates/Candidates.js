@@ -51,13 +51,14 @@ function Candidates() {
 
   return (
     <main className='main-content'>
-      <h2 className='section-heading'>Presidential</h2>
+
+      <h2 className='section-heading'>PRESIDENTIAL PREFERENCE</h2>
       <div className='card-container'>
       {candidatesData.presidential && candidatesData.presidential.candidates.map(candidate => (
           <Card key={candidate.name} name={candidate.name} party={candidate.party}/>
         ))}
       </div>
-      <h2 className='section-heading'>Ward</h2>
+      <h2 className='section-heading'>WARD COMMITTEE PREFERENCE</h2>
       <div className='card-container'>
       {candidatesData.ward_data && candidatesData.ward_data.candidates.map(candidate => (
           <Card key={candidate.name} name={candidate.name} party={candidate.party}/>
