@@ -24,7 +24,8 @@
 .landing-page-btn {
     position: absolute;
     top: 57.5vh;
-    left: 45.5vw;
+    left: 46vw;
+    /* width: 100%; */
     font-size: 20px;
     color: black;
     font-weight:500;
@@ -34,7 +35,7 @@
     color: #008080;
 }
 .landing-page-main{
-    width: 98dvw;
+    width: 100%;
     height: 80dvh;
 }
 .landing-page-circle {
@@ -44,19 +45,20 @@
     border-radius: 50%;
     position: absolute;
     top: 72vh;
-    left: 45.9vw;
+    left: 47.2dvw;
 }
 
 
 .landing-page-arrow{
     width: 120px;
     height: 40px;
-   position: absolute;
+    position: absolute;
     top: 68vh;
+    left: 46.5vw;
 }
 .rotated-arrow {
     transform: rotate(270deg);
-  }
-  .landing-page-circle:hover{
+}
+.landing-page-circle:hover{
     background-color: var(--sunset-orange);
 }
