@@ -12,7 +12,7 @@ function Footer() {
         <p>
           Data provided by 
           <Link to='https://www.sec.state.ma.us/WhereDoIVoteMA/ShowBallot/ViewMyBallot/BallotOut/D/35/12/1'  style={{ textDecoration: 'none', color: 'white' }} >
-             the Secretary of the Commonwealth of Massachusetts.
+              the Secretary of the Commonwealth of Massachusetts.
           </Link>
         </p>
       </div>
