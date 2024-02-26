@@ -17,7 +17,7 @@
 
 Our mission is to create an equitable electoral process by providing comprehensive, multilingual, and user-friendly information to immigrants and first-time voters, ages 18 to 30. We created an application that informs voters in Boston of who is running in their district's next election.
 
-We created this app in 24 hours at the 2024 Tech for Civic Change Hackathon hosted by BU and Howard University.
+We created this app in 24 hours during the 2024 Tech for Change Hackathon, co-hosted by BU and Howard University in partnership with Tech for Change.
 
 ## Table of Contents
 - [Previews](#previews)
