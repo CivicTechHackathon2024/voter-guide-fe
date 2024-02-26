@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer>
       <div className='footer-left'>
-        <p>&copy; 2024 Your Website. All rights reserved.</p>
+        <p>&copy; 2024 Voter Guide. All rights reserved.</p>
       </div>
       <div className='footer-right'>
         <p>
