@@ -14,7 +14,14 @@
     font-style: italic; /* Change the font style to italic */
     color: white;
     text-decoration: none; 
+    margin-top: .5vh;
     /* style:none; */
+  }
+  .nav-title{
+    font-size: 18px;
+    font-weight:500;
+    margin-right: 1vw;
+    margin-left: 1vw;
   }
   .logo:hover,
   .nav-title:hover {

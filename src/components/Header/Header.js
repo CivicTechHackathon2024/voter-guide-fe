@@ -6,7 +6,7 @@ function Header() {
   return (
     <header>
       <Link to="/" style={{ textDecoration: 'none' }}>
-        <h1 className='logo'>Boston City</h1>
+        <h1 className='logo'>City of Boston</h1>
       </Link>
       <nav>
       <NavLink to='/' className="nav-title">Home</NavLink>

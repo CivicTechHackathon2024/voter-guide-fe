@@ -51,7 +51,7 @@ header {
   
   .big-title {
     font-size: 60px;
-    margin-bottom: 40px; /* Increase margin for spacing */
+    margin-bottom: 5px; /* Increase margin for spacing */
     color: #333; /* Use a neutral color for readability */
   }
   
@@ -74,7 +74,7 @@ header {
     font-size: 24px;
     margin-bottom: 20px; /* Increase margin for spacing */
     color: #333; /* Use a neutral color for readability */
-    text-decoration: underline;
+    /* text-decoration: underline; */
   }
   
   .section-content {
